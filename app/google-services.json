@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "6617041844",
+    "firebase_url": "https://ramadan-2017-3c176.firebaseio.com",
+    "project_id": "ramadan-2017-3c176",
+    "storage_bucket": "ramadan-2017-3c176.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6617041844:android:e0ed64f1902b34de",
+        "android_client_info": {
+          "package_name": "com.emranlive.www.ramadan2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6617041844-m66jtdomrjb28b8ii8di19gsvu0ihli0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDPFO2hSb7OhN936B4xGmDxQ2uyaFnL78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

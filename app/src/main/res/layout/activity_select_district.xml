@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.emranlive.www.ramadan2017.activity.SelectDistrict">
+
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:ms_arrowColor="#0000FF"
+        app:ms_arrowSize="16dp"
+        app:ms_floatingLabelColor="#05ab9a"
+        app:ms_floatingLabelText="বিভাগ"
+        app:ms_hint="বিভাগ"
+        app:ms_multiline="true" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:ms_floatingLabelColor="#05ab9a"
+        app:ms_floatingLabelText="জেলা"
+        app:ms_enableErrorLabel="false"
+        app:ms_hint="জেলা"
+        app:ms_multiline="true"  />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#05ab9a"
+        android:text="Save"
+        android:textStyle="bold"
+        android:onClick="saveData"
+        android:layout_marginTop="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/selectDistAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id_select_dist">
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</LinearLayout>

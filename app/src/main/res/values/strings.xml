@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Ramadan 2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //Imran Shaon
+    <string name="banner_ad_unit_id_doya">ca-app-pub-1287744105859221/7510592398</string>
+    <string name="interstitial_full_screen">ca-app-pub-1287744105859221/7370991591</string>
+    <string name="banner_ad_unit_id_rule">ca-app-pub-1287744105859221/2521989597</string>
+    <string name="banner_ad_unit_id_select_dist">ca-app-pub-1287744105859221/1675881591</string>
+    <string name="banner_ad_unit_id_all_doya">ca-app-pub-1287744105859221/9977877597</string>
+    <string name="banner_ad_unit_id_extra_doya">ca-app-pub-1287744105859221/3931343991</string>
+    <string name="banner_ad_unit_id_alarm_bottom">ca-app-pub-1287744105859221/6486027591</string>
+
+
+    <string name="action_about_me">About me</string>
+    <string name="spinner_title">District</string>
+
+    <string name="sehri_doya_arabic">ﺭﻣﻀﺎﻥ ﺍﻟﻤﺒﺎﺭﻙ ﻓﺮﺿﺎ ﻟﻚ ﻳﺎﺍﻟﻠﻪ ﻓﺘﻘﺒﻞ ﻣﻨﻰ ﺍﻧﻚ ﺍﻧﺖ ﺍﻟﺴﻤﻴﻊ ﺍﻟﻌﻠﻴﻢ.</string>
+    <string name="sehri_doya_bangla">নাওয়াইতু আন আছুমা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা,
+        ইয়া আল্লাহ ফাতাকাববাল মিন্নি ইন্নিকা আনতাস সামিউল আলীম।</string>
+    <string name="sheri_doya_meaning">অর্থঃ হে আল্লাহ! আগামীকাল পবিত্র রমজান মাসে তোমার পক্ষ হতে ফরয করা রোজা রাখার নিয়ত করলাম,
+                অতএব তুমি আমার পক্ষ হতে কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</string>
+
+    <string name="iftar_doya_arabic">ﺍﻟﻠﻬﻢ ﻟﻚ ﺻﻤﺖ ﻭ ﻋﻠﻰ ﺭﺯﻗﻚ ﺍﻓﻄﺮﺕ.</string>
+    <string name="iftar_doya_bangla">আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযকিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমীন।</string>
+    <string name="iftar_doya_meaning">অর্থঃ হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেখা রিযিক দারা ইফতার করছি।</string>
+
+    <string-array name="district">
+        <item>Dhaka</item>
+        <item>Chitagong</item>
+        <item>Khulna</item>
+        <item>Rajsahi</item>
+        <item>Barisal</item>
+        <item>Sylhet</item>
+    </string-array>
+</resources>

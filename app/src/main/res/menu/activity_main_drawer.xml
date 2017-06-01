@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_iftar_sehri_doya"
+            android:icon="@drawable/ic_list_white_24dp"
+            android:title="ইফতার ও সেহরির দোয়া" />
+        <item
+            android:id="@+id/nav_ramajan_rules"
+            android:icon="@drawable/ic_subject_white_24dp"
+            android:title="রোজা ভঙ্গের কারন" />
+        <item
+            android:id="@+id/nav_thirty_ramajan_doya"
+            android:icon="@drawable/ic_view_list_white_24dp"
+            android:title="৩০ রমজানের দোয়া" />
+        <item
+            android:id="@+id/nav_related_doya"
+            android:icon="@drawable/ic_view_stream_white_24dp"
+            android:title="প্রয়োজনীয় কিছু দোয়া" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_select_district"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="জেলা নির্বাচন" />
+        </menu>
+    </item>
+
+</menu>

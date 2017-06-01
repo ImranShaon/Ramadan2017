@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.emranlive.www.ramadan2017.activity.DoyaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সেহরীর নিয়ত"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sehri_doya_arabic"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/sehriBanglaTexView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sehri_doya_bangla"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/sehrirNiyotTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sheri_doya_meaning"
+            android:textSize="20sp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_horizontal"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/doyaAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/banner_ad_unit_id_doya"
+            android:layout_marginBottom="5dp">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ইফতারের দোয়া"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iftar_doya_arabic"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/iftarBanglaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iftar_doya_bangla"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/iftarirDoyaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iftar_doya_meaning"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView >
